@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding" native2AsciiForPropertiesFiles="true" defaultCharsetForPropertiesFiles="UTF-8">
+    <file url="file://$PROJECT_DIR$/th_common/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/th_dubbo/dubbo_huanxin/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/th_dubbo/dubbo_interface/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/th_dubbo/dubbo_service/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/th_server/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/th_sso/src/main/java" charset="UTF-8" />
+    <file url="PROJECT" charset="UTF-8" />
+  </component>
+</project>

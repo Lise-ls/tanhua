@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">  
+
+  <parent>
+    <groupId>com.th</groupId>  
+    <artifactId>tanhua</artifactId>  
+    <version>1.0-SNAPSHOT</version> 
+  </parent>
+
+  <modelVersion>4.0.0</modelVersion>  
+
+  <artifactId>th_sso</artifactId>
+
+  <properties> 
+    <maven.compiler.source>8</maven.compiler.source>  
+    <maven.compiler.target>8</maven.compiler.target> 
+  </properties>
+
+
+  <dependencies>
+    <!--引入公共工程 common-->
+    <dependency>
+      <groupId>com.th</groupId>
+      <artifactId>th_common</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+
+    <!-- 需要在sso系统中使用dubbo服务进行注册环信用户。 -->
+    <dependency>
+      <groupId>com.th</groupId>
+      <artifactId>dubbo_interface</artifactId>
+      <version>1.0-SNAPSHOT</version>
+    </dependency>
+    <!--dubbo的springboot支持-->
+    <dependency>
+      <groupId>com.alibaba.boot</groupId>
+      <artifactId>dubbo-spring-boot-starter</artifactId>
+    </dependency>
+    <!--dubbo框架-->
+    <dependency>
+      <groupId>com.alibaba</groupId>
+      <artifactId>dubbo</artifactId>
+    </dependency>
+    <!--zk依赖-->
+    <dependency>
+      <groupId>org.apache.zookeeper</groupId>
+      <artifactId>zookeeper</artifactId>
+    </dependency>
+    <dependency>
+      <groupId>com.github.sgroschupf</groupId>
+      <artifactId>zkclient</artifactId>
+    </dependency>
+
+
+    <dependency> 
+      <groupId>org.springframework.boot</groupId>  
+      <artifactId>spring-boot-starter-web</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>com.baomidou</groupId>  
+      <artifactId>mybatis-plus</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>com.baomidou</groupId>  
+      <artifactId>mybatis-plus-boot-starter</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>mysql</groupId>  
+      <artifactId>mysql-connector-java</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>com.alibaba</groupId>  
+      <artifactId>druid</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.projectlombok</groupId>  
+      <artifactId>lombok</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.apache.commons</groupId>  
+      <artifactId>commons-lang3</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>com.fasterxml.jackson.core</groupId>  
+      <artifactId>jackson-databind</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.springframework.boot</groupId>  
+      <artifactId>spring-boot-starter-data-redis</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>commons-codec</groupId>  
+      <artifactId>commons-codec</artifactId> 
+    </dependency>  
+    <!--RocketMQ相关-->  
+    <dependency> 
+      <groupId>org.apache.rocketmq</groupId>  
+      <artifactId>rocketmq-spring-boot-starter</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>org.apache.rocketmq</groupId>  
+      <artifactId>rocketmq-client</artifactId> 
+    </dependency>  
+    <!--简化代码的工具包-->  
+    <dependency> 
+      <groupId>org.projectlombok</groupId>  
+      <artifactId>lombok</artifactId>  
+      <optional>true</optional> 
+    </dependency>  
+    <dependency> 
+      <groupId>com.aliyun</groupId>  
+      <artifactId>aliyun-java-sdk-core</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>io.jsonwebtoken</groupId>  
+      <artifactId>jjwt</artifactId> 
+    </dependency>  
+    <dependency> 
+      <groupId>joda-time</groupId>  
+      <artifactId>joda-time</artifactId> 
+    </dependency>
+
+
+    <!---短信服务-->
+     <dependency>
+       <groupId>com.aliyun</groupId>
+       <artifactId>aliyun-java-sdk-core</artifactId>
+       <version>4.5.3</version>
+     </dependency>
+
+    <!--JWT-->
+    <dependency>
+      <groupId>io.jsonwebtoken</groupId>
+      <artifactId>jjwt</artifactId>
+      <version>0.9.1</version>
+    </dependency>
+
+
+    <!--虹软-->
+    <dependency>
+    <groupId>com.arcsoft.face</groupId>
+    <artifactId>arcsoft-sdk-face</artifactId>
+    <version>3.0.0.0</version>
+    </dependency>
+  </dependencies> 
+</project>

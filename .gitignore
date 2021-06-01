@@ -1,0 +1,7 @@
+# Project exclude paths
+/th_common/target/
+/th_dubbo/dubbo_huanxin/target/
+/th_dubbo/dubbo_interface/target/
+/th_dubbo/dubbo_service/target/
+/th_server/target/
+/th_sso/target/
